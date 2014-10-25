@@ -11,7 +11,7 @@
 
 int _tmain(int argc, _TCHAR* argv[])
 {
-	Poly_Parser poly_parser("x^2-7x+6");
+	Poly_Parser poly_parser("x^4-2x^3+7x^2-16x+4");
 
 	Polynomial poly(poly_parser.values, 100);
 
